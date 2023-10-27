@@ -129,22 +129,37 @@
       width: 25vw;
       border-radius: 10px;
     }
+
+    @media (max-width: 300px) {
+      .questions {
+        height: 50vh;
+      }
+      .game {
+        width: 90vw;
+      }
+    }
     @media (max-width: 500px) {
       .quiz {
         position: relative;
-        left: 40px;
+        left: 108px;
+      }
+      .game {
+        width: 70vw;
       }
     }
-    @media (max-width: 800px) {
+    @media (min-width: 800px) {
       .quiz {
         position: relative;
-        left: 80px;
+        left: 200px;
+      }
+      .game {
+        width: 70vw;
       }
     }
-    @media (max-width: 1100px) {
+    @media (min-width: 1100px) {
       .quiz {
         position: relative;
-        left: 100px;
+        left: 130px;
       }
     }
   </style>
